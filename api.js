@@ -1,5 +1,5 @@
 // api url
-const api_url = "http://adminpanel.sacode.web.id/api/sacodeweekend";
+const api_url = "https://adminpanel.sacode.web.id/api/sacodeweekend";
 
 // Defining async function
 async function getapi(url) {
@@ -31,7 +31,7 @@ function show(data) {
         <div class="single-review card">
           <div class="card-top p-4">
             <a href="./weekend.html">
-              <img src="http://adminpanel.sacode.web.id/storage/sacodesweekends/${r.poster}" alt="${r.topic}" />
+              <img src="https://adminpanel.sacode.web.id/storage/${r.poster}" alt="${r.topic}" />
             </a>
           </div>
         </div>
