@@ -26,7 +26,7 @@ function show(data) {
   var div = "";
   // Loop to access all rows
   for (let r of data.data) {
-    if (r.status !== "active") {
+    if (r.status === "active") {
       div += `<div class="col-12 col-md-6 col-lg-4 mb-5 res-margin">
         <div class="single-review card">
           <div class="card-top p-4">
